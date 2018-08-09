@@ -13,6 +13,6 @@ const html = `
     </article>
 `.trim();
 
-const jsCode = compile(html);
+const jsCode = compile(html, {parser: {removeEmptyNodes: true}});
 
 console.log(jsCode);
