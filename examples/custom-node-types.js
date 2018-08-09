@@ -29,7 +29,7 @@ function addExpressionNodeTypes(ast) {
 
 
 // Generate content of text node with expression.
-// e.g. "if {{ 2 + 3 }}==5" will be compiled to "if " + ( 2 + 3 ) "==5"
+// e.g. "if {{ 2 + 3 }}==5" will be compiled to "if " + ( 2 + 3 ) + "==5"
 function textWithExpressionGenerator(astNode, varName, parentNodeVarName, variables, level) {
     const code = [];
     const pad = ` `.repeat(4 * level);
