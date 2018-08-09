@@ -64,11 +64,9 @@ const compilerOptions = {
 };
 
 const jsCode = compile(html, compilerOptions);
-
 console.log(jsCode);
 /*
  console.log(jsCode) ==>
-
 
  let el_0, el_0_attr, el_1, el_2, el_3;
  el_0 = document.createElement("article");
