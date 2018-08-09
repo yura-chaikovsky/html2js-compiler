@@ -66,7 +66,7 @@ const compilerOptions = {
 const jsCode = compile(html, compilerOptions);
 
 console.log(jsCode);
-/***
+/*
  console.log(jsCode) ==>
 
 
@@ -78,9 +78,9 @@ console.log(jsCode);
  el_0_attr = document.createAttribute("class");
  el_0_attr.value = "main-topic";
  el_0.setAttributeNode(el_0_attr);
- el_1 = document.createElement("p");
- el_0.appendChild(el_1);
- -->       el_2 = document.createTextNode("This expression was executed, if " + ( 2 + 3 ) + "==5.");
- el_1.appendChild(el_2);
+     el_1 = document.createElement("p");
+     el_0.appendChild(el_1);
+ -->     el_2 = document.createTextNode("This expression was executed, if " + ( 2 + 3 ) + "==5.");
+         el_1.appendChild(el_2);
 
- ***/
+ */
