@@ -8,7 +8,7 @@ Library for generating native DOM creation functions from HTML code. In other wo
  to this:
  
 ```javascript
-let el_0, el_0_attr, el_1, el_2, el_3;
+let el_0, el_0_attr, el_1, el_2;
 el_0 = document.createElement("div");
 el_0_attr = document.createAttribute("class");
 el_0_attr.value = "main-topic";
