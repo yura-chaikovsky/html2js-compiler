@@ -53,7 +53,7 @@ function textWithExpressionGenerator(astNode, varName, parentNodeVarName, variab
 
 const compilerOptions = {
     parser: {
-        map: addExpressionNodeTypes,
+        maps: [addExpressionNodeTypes],
         removeEmptyNodes: true
     },
     compiler: {

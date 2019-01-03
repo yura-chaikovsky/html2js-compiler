@@ -46,7 +46,7 @@ function repeatorGenerator(astNode, varName, parentNodeVarName, variables, level
 
 const compilerOptions = {
     parser: {
-        map: addRepeatorNodeTypes,
+        maps: [addRepeatorNodeTypes],
         removeEmptyNodes: true
     },
     compiler: {
