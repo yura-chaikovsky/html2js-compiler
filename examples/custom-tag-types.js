@@ -40,7 +40,7 @@ function repeatorGenerator(astNode, varName, parentNodeVarName, variables, level
     prefix.push(pad + `for(let ${iteratorsNames["as"]} of ${iteratorsNames["every"]}) {`);
     suffix.push(pad + `}`);
 
-    return {prefix, suffix};
+    return {prefix, suffix, domNode: false};
 }
 
 

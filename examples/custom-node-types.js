@@ -47,7 +47,7 @@ function textWithExpressionGenerator(astNode, varName, parentNodeVarName, variab
         code.push(pad + `${parentNodeVarName}.appendChild(${varName});`);
     }
 
-    return code;
+    return {prefix, suffix, domNode: true};
 }
 
 
