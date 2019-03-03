@@ -1,7 +1,7 @@
 {
   "name": "html2js-compiler",
   "description": "HTML to vanila JS DOM creation functions compiler.",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Yura Chaikovsky <yura.chaikovsky@gmail.com>",
   "bugs": {
     "url": "https://github.com/yura-chaikovsky/html2js-compiler/issues"
