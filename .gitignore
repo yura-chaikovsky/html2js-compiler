@@ -8,6 +8,8 @@ npm-debug.log*
 # Output of 'npm pack'
 *.tgz
 
-#IDE
+# IDE
 .idea/*
 .vscode/*
+
+publish.sh
